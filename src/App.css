@@ -1,3 +1,12 @@
+.wrapper {
+    background: linear-gradient(to bottom left, #0ff, #00f);
+    min-height: 100vh;
+  }
+
+  .wrapper.night {
+      background: linear-gradient(to right, #000428, #004e92);;
+  }
+
 .App {
     margin: 2em auto;
     width: 40vw;
@@ -12,3 +21,14 @@
 .App > p, .App > h1 {
     text-align: center;
 }
+
+.night {
+    background: #151515;
+    color: #53B8BB;
+}
+
+
+.night a {
+    color: #fc6868;
+}
+

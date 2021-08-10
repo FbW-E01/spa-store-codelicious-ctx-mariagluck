@@ -18,3 +18,12 @@
 }
 
 .todos li.my-todo { background: lime; }
+
+.night .todos li.my-todo { background: #3C415C; }
+
+.night .todos li button {
+    float: right;
+    background: #B980F0;
+    color: white;
+}
+
